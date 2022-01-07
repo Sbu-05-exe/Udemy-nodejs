@@ -1,6 +1,6 @@
 const express = require("express")
-const userRouter = require("./routers/user.js")
-const taskRouter = require("./routers/task.js")
+const userRouter = require("./routers/user")
+const taskRouter = require("./routers/task")
 
 require("./db/mongoose.js") // Runs the script to make the connection the mongodb server
 
